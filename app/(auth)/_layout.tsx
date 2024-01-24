@@ -40,6 +40,13 @@ export default function TabLayout() {
             title: "Register",
           }}
         />
+        <Stack.Screen
+          name='login'
+          options={{
+            title: "Login",
+            headerShown: false,
+          }}
+        />
       </Stack>
     </>
   );
